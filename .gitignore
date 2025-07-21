@@ -1,0 +1,25 @@
+# .gitignore
+# Python virtual environment
+venv/
+
+# PyInstaller / build artifacts (if you ever package your app)
+build/
+dist/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Editor/IDE specific files (VS Code will manage its own in .vscode/)
+# If you don't want to share VS Code workspace settings, uncomment:
+# .vscode/
+
+# Temporary files created by the app
+temp_uploads/
+.streamlit/local_storage # Streamlit's local cache
+.streamlit/server.port # Streamlit's server port info
+
+# Operating System specific files
+.DS_Store # macOS specific folder metadata
+Thumbs.db # Windows thumbnail cache
